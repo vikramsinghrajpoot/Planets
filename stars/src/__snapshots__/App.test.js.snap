@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly with no props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        " ",
+        <div
+          className="content"
+        >
+          <BubbleChart
+            bubbleClickFun={[Function]}
+            graph={
+              Object {
+                "offsetX": -0.05,
+                "offsetY": -0.01,
+                "zoom": 1.1,
+              }
+            }
+            height={800}
+            labelFont={
+              Object {
+                "color": "#fff",
+                "family": "Arial",
+                "size": 16,
+                "weight": "bold",
+              }
+            }
+            legendClickFun={[Function]}
+            legendFont={
+              Object {
+                "color": "#000",
+                "family": "Arial",
+                "size": 12,
+                "weight": "bold",
+              }
+            }
+            legendPercentage={22}
+            showLegend={true}
+            valueFont={
+              Object {
+                "color": "#fff",
+                "family": "Arial",
+                "size": 12,
+                "weight": "bold",
+              }
+            }
+            width={1000}
+          />
+        </div>,
+        <br />,
+        <div
+          className="paggingButtons"
+        >
+          <button
+            className="next-prevButtons"
+            onClick={[Function]}
+          >
+            Prev
+          </button>
+          <button
+            className="next-prevButtons"
+            onClick={[Function]}
+          >
+            Next
+          </button>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <BubbleChart
+            bubbleClickFun={[Function]}
+            graph={
+              Object {
+                "offsetX": -0.05,
+                "offsetY": -0.01,
+                "zoom": 1.1,
+              }
+            }
+            height={800}
+            labelFont={
+              Object {
+                "color": "#fff",
+                "family": "Arial",
+                "size": 16,
+                "weight": "bold",
+              }
+            }
+            legendClickFun={[Function]}
+            legendFont={
+              Object {
+                "color": "#000",
+                "family": "Arial",
+                "size": 12,
+                "weight": "bold",
+              }
+            }
+            legendPercentage={22}
+            showLegend={true}
+            valueFont={
+              Object {
+                "color": "#fff",
+                "family": "Arial",
+                "size": 12,
+                "weight": "bold",
+              }
+            }
+            width={1000}
+          />,
+          "className": "content",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bubbleClickFun": [Function],
+            "bubbleClickFunc": undefined,
+            "data": undefined,
+            "graph": Object {
+              "offsetX": -0.05,
+              "offsetY": -0.01,
+              "zoom": 1.1,
+            },
+            "height": 800,
+            "labelFont": Object {
+              "color": "#fff",
+              "family": "Arial",
+              "size": 16,
+              "weight": "bold",
+            },
+            "legendClickFun": [Function],
+            "legendFont": Object {
+              "color": "#000",
+              "family": "Arial",
+              "size": 12,
+              "weight": "bold",
+            },
+            "legendPercentage": 22,
+            "showLegend": true,
+            "valueFont": Object {
+              "color": "#fff",
+              "family": "Arial",
+              "size": 12,
+              "weight": "bold",
+            },
+            "width": 1000,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="next-prevButtons"
+              onClick={[Function]}
+            >
+              Prev
+            </button>,
+            <button
+              className="next-prevButtons"
+              onClick={[Function]}
+            >
+              Next
+            </button>,
+          ],
+          "className": "paggingButtons",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Prev",
+              "className": "next-prevButtons",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Prev",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Next",
+              "className": "next-prevButtons",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Next",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          " ",
+          <div
+            className="content"
+          >
+            <BubbleChart
+              bubbleClickFun={[Function]}
+              graph={
+                Object {
+                  "offsetX": -0.05,
+                  "offsetY": -0.01,
+                  "zoom": 1.1,
+                }
+              }
+              height={800}
+              labelFont={
+                Object {
+                  "color": "#fff",
+                  "family": "Arial",
+                  "size": 16,
+                  "weight": "bold",
+                }
+              }
+              legendClickFun={[Function]}
+              legendFont={
+                Object {
+                  "color": "#000",
+                  "family": "Arial",
+                  "size": 12,
+                  "weight": "bold",
+                }
+              }
+              legendPercentage={22}
+              showLegend={true}
+              valueFont={
+                Object {
+                  "color": "#fff",
+                  "family": "Arial",
+                  "size": 12,
+                  "weight": "bold",
+                }
+              }
+              width={1000}
+            />
+          </div>,
+          <br />,
+          <div
+            className="paggingButtons"
+          >
+            <button
+              className="next-prevButtons"
+              onClick={[Function]}
+            >
+              Prev
+            </button>
+            <button
+              className="next-prevButtons"
+              onClick={[Function]}
+            >
+              Next
+            </button>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <BubbleChart
+              bubbleClickFun={[Function]}
+              graph={
+                Object {
+                  "offsetX": -0.05,
+                  "offsetY": -0.01,
+                  "zoom": 1.1,
+                }
+              }
+              height={800}
+              labelFont={
+                Object {
+                  "color": "#fff",
+                  "family": "Arial",
+                  "size": 16,
+                  "weight": "bold",
+                }
+              }
+              legendClickFun={[Function]}
+              legendFont={
+                Object {
+                  "color": "#000",
+                  "family": "Arial",
+                  "size": 12,
+                  "weight": "bold",
+                }
+              }
+              legendPercentage={22}
+              showLegend={true}
+              valueFont={
+                Object {
+                  "color": "#fff",
+                  "family": "Arial",
+                  "size": 12,
+                  "weight": "bold",
+                }
+              }
+              width={1000}
+            />,
+            "className": "content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bubbleClickFun": [Function],
+              "bubbleClickFunc": undefined,
+              "data": undefined,
+              "graph": Object {
+                "offsetX": -0.05,
+                "offsetY": -0.01,
+                "zoom": 1.1,
+              },
+              "height": 800,
+              "labelFont": Object {
+                "color": "#fff",
+                "family": "Arial",
+                "size": 16,
+                "weight": "bold",
+              },
+              "legendClickFun": [Function],
+              "legendFont": Object {
+                "color": "#000",
+                "family": "Arial",
+                "size": 12,
+                "weight": "bold",
+              },
+              "legendPercentage": 22,
+              "showLegend": true,
+              "valueFont": Object {
+                "color": "#fff",
+                "family": "Arial",
+                "size": 12,
+                "weight": "bold",
+              },
+              "width": 1000,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="next-prevButtons"
+                onClick={[Function]}
+              >
+                Prev
+              </button>,
+              <button
+                className="next-prevButtons"
+                onClick={[Function]}
+              >
+                Next
+              </button>,
+            ],
+            "className": "paggingButtons",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Prev",
+                "className": "next-prevButtons",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Prev",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Next",
+                "className": "next-prevButtons",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Next",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
