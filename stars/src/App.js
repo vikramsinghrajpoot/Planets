@@ -3,7 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import BubbleChart from '@weknow/react-bubble-chart-d3';
 
+
+
 class App extends Component {
+
 
   constructor(props) {
     super(props)
@@ -35,7 +38,7 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.planet)
+    console.log(this.props.loadData)
 
     if (this.state.planet) {
       return (<div > <div className = "content"><BubbleChart
